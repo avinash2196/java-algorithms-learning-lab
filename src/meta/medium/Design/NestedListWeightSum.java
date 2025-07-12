@@ -1,4 +1,4 @@
-package meta.medium;
+package meta.medium.Design;
 
 import java.util.LinkedList;
 import java.util.List;

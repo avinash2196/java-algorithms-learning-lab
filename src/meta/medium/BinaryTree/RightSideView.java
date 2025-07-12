@@ -1,4 +1,6 @@
-package meta.medium;
+package meta.medium.BinaryTree;
+
+import meta.medium.TreeNode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

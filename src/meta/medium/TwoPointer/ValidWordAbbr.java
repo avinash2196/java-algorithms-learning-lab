@@ -1,4 +1,4 @@
-package meta.easy;
+package meta.medium.TwoPointer;
 
 public class ValidWordAbbr {
     public boolean validWordAbbreviation(String word, String abbr) {

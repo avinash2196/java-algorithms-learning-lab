@@ -1,8 +1,8 @@
-package meta.medium;
+package meta.medium.BinaryTree;
+
+import meta.medium.TreeNode;
 
 public class LowestCommonAncestorOfTree {
-    public class Solution {
-
         private TreeNode ans;
 
         public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
@@ -25,6 +25,5 @@ public class LowestCommonAncestorOfTree {
             return mid || left || right;
         }
     }
-}
 // Time complexity : O(n)
 // Space Complexity :O(h)

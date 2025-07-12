@@ -1,4 +1,4 @@
-package meta.medium;
+package meta.medium.BinarySearch;
 
 public class FindFirstAndLastPosition {
     public int[] searchRange(int[] nums, int target) {

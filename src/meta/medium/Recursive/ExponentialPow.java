@@ -1,4 +1,4 @@
-package meta.medium;
+package meta.medium.Recursive;
 
 public class ExponentialPow {
     public double myPow(double x, int n) {

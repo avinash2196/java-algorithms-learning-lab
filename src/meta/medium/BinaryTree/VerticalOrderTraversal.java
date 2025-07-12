@@ -1,8 +1,10 @@
-package meta.medium;
+package meta.medium.BinaryTree;
+
+import meta.medium.TreeNode;
 
 import java.util.*;
 
-public class BinaryTreeVerticalOrder {
+public class VerticalOrderTraversal {
     private class Pair {
         TreeNode key;
         int val;
@@ -54,4 +56,9 @@ public class BinaryTreeVerticalOrder {
 
         return result;
     }
+
+/*    Time and Space Complexity
+    Operation	Complexity
+    Time	O(n)
+    Space (Map + Queue)	O(n)*/
 }

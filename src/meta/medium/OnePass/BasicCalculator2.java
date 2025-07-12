@@ -1,9 +1,13 @@
-package meta.medium;
+package meta.medium.OnePass;
 
 import java.util.Stack;
 
 public class BasicCalculator2 {
-    public int calculate(String s) {
+    public static void main (String [] args){
+        String s="1*10";
+        calculate(s);
+    }
+    public static int calculate(String s) {
         if (s == null || s.isEmpty()) return 0;
 
         Stack<Integer> stack = new Stack<>();
