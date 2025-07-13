@@ -1,6 +1,7 @@
-package meta.hard;
+package meta.hard.LinkedList;
 
-import java.util.Comparator;
+import meta.ListNode;
+
 import java.util.PriorityQueue;
 
 public class MergeKSortedLinkedLists {

@@ -1,4 +1,4 @@
-package meta.easy;
+package meta.easy.BinaryTree;
 
 import meta.TreeNode;
 

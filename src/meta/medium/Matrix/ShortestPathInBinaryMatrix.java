@@ -1,4 +1,4 @@
-package meta.medium.Graph;
+package meta.medium.Matrix;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

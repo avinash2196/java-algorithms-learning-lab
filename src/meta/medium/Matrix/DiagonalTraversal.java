@@ -1,4 +1,4 @@
-package meta.medium.Graph;
+package meta.medium.Matrix;
 
 public class DiagonalTraversal {
     public int[] findDiagonalOrder(int[][] matrix) {

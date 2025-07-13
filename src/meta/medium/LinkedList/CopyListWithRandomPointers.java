@@ -1,4 +1,4 @@
-package meta.medium;
+package meta.medium.LinkedList;
 
 import java.util.HashMap;
 import java.util.Map;

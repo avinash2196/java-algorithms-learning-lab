@@ -1,4 +1,4 @@
-package meta.medium.OnePass;
+package meta.medium.PriorityQueue;
 
 import java.util.PriorityQueue;
 
