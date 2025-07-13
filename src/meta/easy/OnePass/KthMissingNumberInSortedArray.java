@@ -1,4 +1,4 @@
-package meta.easy;
+package meta.easy.OnePass;
 
 public class KthMissingNumberInSortedArray {
     public int findKthPositive(int[] arr, int k) {

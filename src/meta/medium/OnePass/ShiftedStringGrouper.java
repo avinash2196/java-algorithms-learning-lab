@@ -1,4 +1,4 @@
-package meta.medium;
+package meta.medium.OnePass;
 
 import java.util.*;
 

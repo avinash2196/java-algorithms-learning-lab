@@ -1,4 +1,4 @@
-package meta.medium.OnePass;
+package meta.medium.PrefixSum;
 
 import java.util.*;
 
