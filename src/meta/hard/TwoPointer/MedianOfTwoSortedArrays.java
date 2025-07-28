@@ -1,4 +1,4 @@
-package meta.hard;
+package meta.hard.TwoPointer;
 
 public class MedianOfTwoSortedArrays {
     class Solution {
@@ -32,6 +32,16 @@ public class MedianOfTwoSortedArrays {
             return 0.0;
         }
     }
+    /*
+		123478
+		569
+
+		123456789
+		1234 78
+		check median
+		if we partition by median , the left of A < right of B and vice versa
+		5 69
+	*/
 /*    Time and Space Complexity
     Type	Value
     Time	O(log(min(n, m)))

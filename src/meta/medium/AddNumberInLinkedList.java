@@ -1,5 +1,7 @@
 package meta.medium;
 
+import meta.ListNode;
+
 public class AddNumberInLinkedList {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;

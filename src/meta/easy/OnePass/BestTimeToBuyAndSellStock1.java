@@ -10,4 +10,9 @@ public class BestTimeToBuyAndSellStock1 {
         }
         return maxProfit;
     }
+
+/*    Time and Space Complexity
+    Complexity	Value
+    Time	O(n) — one pass through the array
+    Space	O(1) — constant space*/
 }

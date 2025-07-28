@@ -1,4 +1,6 @@
-package meta.medium;
+package meta.medium.BinaryTree;
+
+import meta.medium.TreeNode;
 
 public class SumRootToLeafInBST {
     public int sumNumbers(TreeNode root) {

@@ -1,5 +1,7 @@
 package meta.medium;
 
+import meta.ListNode;
+
 public class RemoveNthNodeFromList {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode node = new ListNode();

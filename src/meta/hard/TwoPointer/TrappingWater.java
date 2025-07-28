@@ -1,4 +1,4 @@
-package meta.hard;
+package meta.hard.TwoPointer;
 
 public class TrappingWater {
     public int trap(int[] height) {

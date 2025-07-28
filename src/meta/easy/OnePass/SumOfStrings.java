@@ -1,4 +1,4 @@
-package meta.easy;
+package meta.easy.OnePass;
 
 public class SumOfStrings {
     public String addStrings(String num1, String num2) {

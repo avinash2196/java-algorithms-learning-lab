@@ -1,4 +1,4 @@
-package meta.hard;
+package meta.hard.OnePass;
 
 public class ValidNumber {
     public boolean isNumber(String s) {

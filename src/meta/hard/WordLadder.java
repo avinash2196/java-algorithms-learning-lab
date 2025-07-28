@@ -9,7 +9,7 @@ public class WordLadder {
         Set<String> set = new HashSet<>(wordList);
         Queue<String> queue = new LinkedList<>();
 
-        //start from begin word and perform BFS using queue to find if endword can be reached from one of path
+        //start from begin word and perform BFS using queue to find if end word can be reached from one of path
         queue.offer(beginWord);
         set.remove(beginWord);
         int level = 0;
