@@ -3,6 +3,28 @@ package meta.medium;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * LRU Cache — LeetCode #146 (Medium)
+ *
+ * <p><b>Problem:</b> Design a cache with a fixed capacity that evicts the
+ * Least Recently Used (LRU) entry when it is full.
+ *
+ * <p><b>Concept:</b> Combines a doubly-linked list (to track recency order in O(1))
+ * with a HashMap (for O(1) key lookup). Together they give O(1) get and put.
+ *
+ * <p><b>Real-world relevance:</b> LRU is a production cache eviction policy used in
+ * Redis, OS page replacement, CPU caches, and web CDN edge nodes. Java's
+ * {@code LinkedHashMap} provides the same semantics out-of-the-box.
+ *
+ * <p><b>Design choices:</b>
+ * <ul>
+ *   <li>Sentinel {@code head} and {@code tail} nodes eliminate edge-case null checks.</li>
+ *   <li>Moving a node on every {@code get} keeps "most-recently-used" always near
+ *       {@code tail}, so eviction simply removes {@code head.next}.</li>
+ * </ul>
+ *
+ * <p>Time: O(1) for both get and put | Space: O(capacity)
+ */
 public class LRUCache {
     private class Node {
         int key;

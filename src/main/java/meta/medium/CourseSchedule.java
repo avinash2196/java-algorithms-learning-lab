@@ -2,6 +2,20 @@ package meta.medium;
 
 import java.util.*;
 
+/**
+ * Course Schedule — LeetCode #207 (Medium)
+ *
+ * <p><b>Problem:</b> Given {@code numCourses} and a list of prerequisite pairs, determine
+ * whether it is possible to finish all courses (i.e., whether the graph has no cycle).
+ *
+ * <p><b>Concept:</b> Topological sort via Kahn's algorithm (BFS + in-degree tracking).
+ * If all nodes can be visited in topological order, the graph is a DAG (no cycle).
+ *
+ * <p><b>Real-world relevance:</b> Topological ordering is used in build systems (Make,
+ * Gradle), task schedulers, deployment pipelines, and package dependency resolution.
+ *
+ * <p>Time: O(V + E) | Space: O(V + E)
+ */
 public class CourseSchedule {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         int[] indegree = new int[numCourses];

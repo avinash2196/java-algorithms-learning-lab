@@ -2,6 +2,23 @@ package meta.hard;
 
 import java.util.*;
 
+/**
+ * Word Ladder — LeetCode #127 (Hard)
+ *
+ * <p><b>Problem:</b> Find the shortest transformation sequence from {@code beginWord}
+ * to {@code endWord}, changing one letter at a time, where each intermediate word must
+ * exist in the given word list. Return the length of the shortest sequence, or 0 if
+ * none exists.
+ *
+ * <p><b>Concept:</b> BFS on an implicit graph. Each word is a node; an edge exists
+ * between two words that differ by exactly one character. BFS guarantees the shortest
+ * path is found first.
+ *
+ * <p><b>Real-world relevance:</b> Shortest-path BFS on implicit graphs is used in
+ * spell checkers, network routing, gene mutation analysis, and puzzle solvers.
+ *
+ * <p>Time: O(n · k · 26) where n = word list size, k = word length | Space: O(n · k)
+ */
 public class WordLadder {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
 

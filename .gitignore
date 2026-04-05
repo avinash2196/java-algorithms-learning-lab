@@ -1,7 +1,11 @@
+### Maven ###
+target/
+*.class
+
 ### IntelliJ IDEA ###
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,10 +16,7 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
-.idea
-.idea/
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -28,3 +29,7 @@ bin/
 
 ### Mac OS ###
 .DS_Store
+
+### Build artifacts ###
+*.jar
+*.war
